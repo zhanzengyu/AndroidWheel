@@ -23,6 +23,9 @@ dependencies {
 }
 ```
 
+### Releases
+[Releases](https://github.com/nesger/AndroidWheel/releases)
+
 ### 文档
 
 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**
