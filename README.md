@@ -2,7 +2,7 @@
 Android 组件库，避免重复造轮子。
 
 
-**ZLog**
+**[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**
 >功能：日志工具类  
 >特点：使用方便；可以快速点击跳转到日志打印处；
 
@@ -22,7 +22,7 @@ ZLog.e("use default tag ZLOG");
 
 默认不打印，支持日志跳转，TAG 为 **ZLOG**。
 
-**ZLogHelper**
+**[ZLogHelper](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLogHelper.java)**
 >功能：让日志内容支持点击跳转。  
 >特点：方便易用。
 
@@ -39,8 +39,8 @@ ZLog.e("use default tag ZLOG");
 ### 版本更新：
 
 **1.0.0：**  
-提供日志工具类 **ZLog**，方便定位日志位置。提高开发效率。  
-提供日志辅助类 **ZLogHelper**，方便转换日志内容支持点击跳转。
+提供日志工具类 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**，方便定位日志位置。提高开发效率。  
+提供日志辅助类 **[ZLogHelper](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLogHelper.java)**，方便转换日志内容支持点击跳转。
 
 
 
