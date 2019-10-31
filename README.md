@@ -1,6 +1,29 @@
 # AndroidWheel
+
+[![](https://jitpack.io/v/nesger/AndroidWheel.svg)](https://jitpack.io/#nesger/AndroidWheel)
+
 Android 组件库，避免重复造轮子。
 
+### 添加到项目
+
+**Step 1. Add the JitPack repository to your build file**  
+Add it in your root build.gradle at the end of repositories:
+```java
+allprojects {
+  repositories {
+    ...
+    maven { url 'https://jitpack.io' }
+  }
+}
+```
+**Step 2. Add the dependency**
+```java
+dependencies {
+  implementation 'com.github.nesger:AndroidWheel:1.0.0'
+}
+```
+
+### 文档
 
 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**
 >功能：日志工具类  
