@@ -26,6 +26,14 @@ dependencies {
 ### Releases
 [Releases](https://github.com/nesger/AndroidWheel/releases)
 
+### 版本更新：
+
+**1.0.0：**  
+提供日志工具类 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**，方便定位日志位置。提高开发效率。  
+提供日志辅助类 **[ZLogHelper](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLogHelper.java)**，方便转换日志内容支持点击跳转。
+
+<hr/>
+
 ### 文档
 
 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**
@@ -59,15 +67,5 @@ ZLog.e("use default tag ZLOG");
 *wrapMessage(int stackIndex, String message)：* 包装 message 使其支持点击跳转。
 
 具体说明见博客：
-
-<hr/>
-
-### 版本更新：
-
-**1.0.0：**  
-提供日志工具类 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**，方便定位日志位置。提高开发效率。  
-提供日志辅助类 **[ZLogHelper](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLogHelper.java)**，方便转换日志内容支持点击跳转。
-
-
 
 
