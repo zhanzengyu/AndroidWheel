@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DebounceEditText">
+        <attr name="debounce_time" format="integer"/>
+    </declare-styleable>
+</resources>
