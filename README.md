@@ -83,7 +83,3 @@ ZLog.e("use default tag ZLOG");
 
 **API：**  
 *wrapMessage(int stackIndex, String message)：* 包装 message 使其支持点击跳转。
-
-具体说明见博客：
-
-
