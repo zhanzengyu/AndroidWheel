@@ -19,7 +19,7 @@ allprojects {
 **Step 2. Add the dependency**
 ```java
 dependencies {
-  implementation 'com.github.nesger:AndroidWheel:1.0.0'
+  implementation 'com.github.nesger:AndroidWheel:1.0.1'
 }
 ```
 
@@ -28,6 +28,9 @@ dependencies {
 
 ### 版本更新：
 
+**1.0.1：**  
+增加[防抖动 EditText](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/widgets/DebounceEditText.java)
+
 **1.0.0：**  
 提供日志工具类 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**，方便定位日志位置。提高开发效率。  
 提供日志辅助类 **[ZLogHelper](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLogHelper.java)**，方便转换日志内容支持点击跳转。
@@ -35,6 +38,21 @@ dependencies {
 <hr/>
 
 ### 文档
+
+**[DebounceEditText](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/widgets/DebounceEditText.java)**
+>功能：防抖动  
+>特点：支持代码配置和 xml 配置
+
+xml 配置：
+```java
+<com.zengyu.wheel.widgets.DebounceEditText
+    android:id="@+id/edt_xml"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    app:debounce_time="1000"
+    />
+```
+
 
 **[ZLog](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/utils/ZLog.java)**
 >功能：日志工具类  
