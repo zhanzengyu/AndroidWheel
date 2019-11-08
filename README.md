@@ -25,7 +25,7 @@ dependencies {
 
 ### 效果图
 
-![zlog.png](./images/zlog.png)
+![zlog.jpg](./images/zlog.jpg)
 
 ![debounce_edit_text.gif](./images/debounce_edit_text.gif)
 
