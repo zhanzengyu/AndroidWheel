@@ -23,6 +23,12 @@ dependencies {
 }
 ```
 
+### 效果图
+
+![zlog.png](./images/zlog.png)
+
+![debounce_edit_text.gif](./images/debounce_edit_text.gif)
+
 ### Releases
 [Releases](https://github.com/nesger/AndroidWheel/releases)
 
@@ -83,3 +89,5 @@ ZLog.e("use default tag ZLOG");
 
 **API：**  
 *wrapMessage(int stackIndex, String message)：* 包装 message 使其支持点击跳转。
+
+
