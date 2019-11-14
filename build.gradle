@@ -25,7 +25,3 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-task wrapper(type: Wrapper) {
-    gradleVersion = '5.1.1'
-}
