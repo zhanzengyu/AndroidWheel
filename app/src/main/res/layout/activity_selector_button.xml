@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <com.zengyu.wheel.widgets.SelectorButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:normal_color="#1a61a8"
+        app:press_color="#63a3e3"
+        android:text="xml press"
+        android:textColor="@android:color/white"
+        />
+
+    <com.zengyu.wheel.widgets.SelectorButton
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:corner="6dp"
+        app:normal_color="#1a61a8"
+        app:press_color="#63a3e3"
+        android:text="xml corner"
+        android:textColor="@android:color/white"
+        />
+
+    <com.zengyu.wheel.widgets.SelectorButton
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:normal_color="#1a61a8"
+        app:press_color="#63a3e3"
+        app:stroke_color="#c4d6e9"
+        app:stroke_width="6dp"
+        android:text="xml stroke"
+        android:textColor="@android:color/white"
+        />
+
+    <com.zengyu.wheel.widgets.SelectorButton
+        android:id="@+id/press_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="code press"
+        android:textColor="@android:color/white"
+        />
+
+    <com.zengyu.wheel.widgets.SelectorButton
+        android:id="@+id/corner_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="code corner"
+        android:textColor="@android:color/white"
+        />
+
+    <com.zengyu.wheel.widgets.SelectorButton
+        android:id="@+id/corners_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="code corners"
+        android:textColor="@android:color/white"
+        />
+
+    <com.zengyu.wheel.widgets.SelectorButton
+        android:id="@+id/stroke_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="code stroke"
+        android:textColor="@android:color/white"
+        />
+
+</LinearLayout>

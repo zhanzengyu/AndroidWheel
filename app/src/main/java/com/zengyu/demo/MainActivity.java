@@ -6,10 +6,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.zengyu.demo.button.SelectorButtonActivity;
 import com.zengyu.demo.edittext.DebounceEditTextActivity;
 import com.zengyu.demo.zlog.ZLogActivity;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author zengyu.zhan
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         fillData();
     }
 
-    private String[] mTitles = {"v1.0.0", "v1.0.1"};
+    private String[] mTitles = {"v1.0.0", "v1.0.1", "v1.0.2"};
+
     private void fillData() {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, mTitles);
         mListView.setAdapter(adapter);
@@ -41,6 +43,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 1:
                 DebounceEditTextActivity.actionStart(this);
+                break;
+            case 2:
+                SelectorButtonActivity.actionStart(this);
+                break;
+            default:
                 break;
         }
     }

@@ -29,6 +29,8 @@ dependencies {
 
 ![debounce_edit_text.gif](./images/debounce_edit_text.gif)
 
+![selector_button.jpg](./images/selector_button.jpg)
+
 ### Releases
 [Releases](https://github.com/nesger/AndroidWheel/releases)
 
