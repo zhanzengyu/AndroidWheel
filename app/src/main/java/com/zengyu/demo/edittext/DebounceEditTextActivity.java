@@ -5,13 +5,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.zengyu.demo.R;
 import com.zengyu.wheel.widgets.DebounceEditText;
 
-import androidx.appcompat.app.AppCompatActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * @author zengyu.zhan
+ */
 public class DebounceEditTextActivity extends AppCompatActivity {
 
     @BindView(R.id.edt_default)
