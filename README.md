@@ -19,7 +19,7 @@ allprojects {
 **Step 2. Add the dependency**
 ```java
 dependencies {
-  implementation 'com.github.nesger:AndroidWheel:1.0.1'
+  implementation 'com.github.nesger:AndroidWheel:1.0.2'
 }
 ```
 
@@ -36,6 +36,9 @@ dependencies {
 
 ### 版本更新：
 
+**1.0.2：**  
+增加 [SelectorButton](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/widgets/SelectorButton.java) 工具类，减少 selector xml 文件的书写。
+
 **1.0.1：**  
 增加[防抖动 EditText](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/widgets/DebounceEditText.java)
 
@@ -46,6 +49,25 @@ dependencies {
 <hr/>
 
 ### 文档
+
+**[SelectorButton](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/widgets/SelectorButton.java)**
+>功能：按住背景变色通用按钮
+>特点：支持代码配置和 xml 配置
+
+xml 配置：
+```
+<com.zengyu.wheel.widgets.SelectorButton
+    android:layout_marginTop="20dp"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    app:normal_color="#1a61a8"
+    app:press_color="#63a3e3"
+    app:stroke_color="#c4d6e9"
+    app:stroke_width="6dp"
+    android:text="xml stroke"
+    android:textColor="@android:color/white"
+    />
+```
 
 **[DebounceEditText](https://github.com/nesger/AndroidWheel/blob/master/wheel/src/main/java/com/zengyu/wheel/widgets/DebounceEditText.java)**
 >功能：防抖动  
