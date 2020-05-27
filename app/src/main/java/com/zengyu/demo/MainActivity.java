@@ -8,8 +8,8 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.zengyu.demo.button.SelectorButtonActivity;
-import com.zengyu.demo.edittext.DebounceEditTextActivity;
+import com.zengyu.demo.widget.DebounceEditTextActivity;
+import com.zengyu.demo.widget.SelectorButtonActivity;
 import com.zengyu.demo.zlog.ZLogActivity;
 
 /**

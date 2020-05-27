@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".zlog.ZLogActivity" />
-        <activity android:name=".edittext.DebounceEditTextActivity" />
-        <activity android:name=".button.SelectorButtonActivity" />
+        <activity android:name=".widget.DebounceEditTextActivity" />
+        <activity android:name=".widget.SelectorButtonActivity" />
     </application>
 
 </manifest>

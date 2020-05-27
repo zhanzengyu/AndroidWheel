@@ -1,4 +1,4 @@
-package com.zengyu.demo.edittext;
+package com.zengyu.demo.widget;
 
 import android.content.Context;
 import android.content.Intent;
